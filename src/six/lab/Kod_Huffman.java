@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-//**** Сложность  ****//
+//**** Сложность O(N*log(N)) ****//
 
 public class Kod_Huffman {
     static final boolean newTextBasedOnOldOne = false;
