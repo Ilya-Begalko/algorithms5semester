@@ -278,29 +278,17 @@ class AVL <Key extends Comparable<Key>, Value> {
 public class AVL_tree {
     public static void main(String[] args){
         AVL<Integer, Integer> tree = new AVL<>();
-        tree.add(10,10);
+        tree.add(2,2);
         tree.print();
-        tree.add(11,11);
+        tree.add(4,4);
         tree.print();
-        tree.add(15,12);
+        tree.add(5,5);
         tree.print();
-        tree.add(13,12);
+        tree.add(7,7);
         tree.print();
-        tree.add(16,12);
+        tree.add(6,6);
         tree.print();
-        tree.add(12,12);
-        tree.print();
-        tree.add(3,2);
-        tree.print();
-        tree.add(1,1);
-        tree.print();
-        tree.add(0,1);
-        tree.print();
-        tree.add(2,1);
-        tree.print();
-        tree.delete(13);
-        tree.print();
-        tree.delete(10);
+        tree.delete(2);
         tree.print();
         for(AVL.Node e = tree.getFirstNode(); e != null; e = e.next()){
             System.out.println(e.key);

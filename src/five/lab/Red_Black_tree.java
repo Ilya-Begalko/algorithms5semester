@@ -429,10 +429,9 @@ public class Red_Black_tree {
         bst.insert(5);
         bst.insert(15);
         bst.insert(17);
-        bst.insert(25);
         bst.insert(40);
         bst.insert(80);
-        bst.deleteNode(25);
+        bst.deleteNode(40);
         bst.prettyPrint();
     }
 }
