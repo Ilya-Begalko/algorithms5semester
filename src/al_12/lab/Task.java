@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Task {
-    private static float pricePerMinute = 1.5f;
+    private static float pricePerMinute = 15.2f;
     public static void main(String[] args) {
         Map<String, Object> hashTable = new Table<>();
         try (FileReader file = new FileReader("src/al_12/lab/data.txt")) {

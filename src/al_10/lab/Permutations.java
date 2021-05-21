@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class Permutations {
     public static void main(String[] args) {
-        int[] mass = new int[]{1, 2, 1};
+        int[] mass = new int[]{2, 2, 2};
         System.out.println(new Permutations().permute(mass));
     }
 
