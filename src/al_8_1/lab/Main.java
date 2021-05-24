@@ -77,13 +77,5 @@ public class Main {
                 i--;
             }
         }
-//можно удалить
-        System.out.println(group);
-        for(int i = 0; i < m; i++){
-            for(int j = 0; j < m; j++){
-                System.out.print(matrix1[i][j] + " ");
-            }
-            System.out.println();
-        }
     }
 }
